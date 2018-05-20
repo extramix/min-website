@@ -1,0 +1,37 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.portrait {
+    padding-top: 3rem;
+    width: 230px;
+    margin: auto;
+}
+
+#portrait-item {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #00BFFB;
+}
+
+
+/* Colors */
+#primary-color {
+    color: #00BFFB;
+}
+
+#secondary-color {
+    color: #707070;
+}
+
+.section-height-lg {
+    min-height: 100%;
+}
+
+.section-height-md {
+    min-height: 80%;
+}
+
+.section-height-sm {
+    min-height: 50%;
+}

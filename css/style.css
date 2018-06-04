@@ -74,13 +74,49 @@ p{
 }
 
 .portfolio-item {
+    position: relative;
     -webkit-filter: blur(0);
-	filter: blur(0);
+    filter: blur(0);
+    
 }
 
-.portfolio-item:hover {
+.portfolio-item img {
+    border-radius: 3%;
+}
+
+.portfolio-item img:hover {
     -webkit-filter: blur(1px);
 	filter: blur(1px);
 	-webkit-transition: .1s ease-in-out;
 	transition: .1s ease-in-out;
+}
+
+.portfolio-item-button i{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    font-size: 50px;
+    color: #00BFFB;
+    display: none;
+}
+
+.portfolio-item:hover .portfolio-item-button i {
+    -webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+    display: block;
+}
+
+footer {
+    background-color: #00BFFB;
+    position: relative;
+}
+
+footer span.bulma {
+    position: absolute;
+    right: 0;
+}
+
+footer span .made-with-bulma {
+    width: 250px;
+
 }
